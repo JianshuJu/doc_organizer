@@ -1,0 +1,36 @@
+site_name: HTML 元素结构化文档
+site_description: 基于 XML/HTML 源文件自动生成的元素结构化文档
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+docs_dir: general_html
+plugins:
+  - search
+  - minify:
+      minify_html: true
+nav:
+  - 首页: index.md
+  - 元素文档:
+      - html: elements/html.md
+      - head: elements/head.md
+      - meta: elements/meta.md
+      - link: elements/link.md
+      - title: elements/title.md
+      - style: elements/style.md
+      - body: elements/body.md
+      - div: elements/div.md
+      - h1: elements/h1.md
+      - h2: elements/h2.md
+      - ul: elements/ul.md
+      - li: elements/li.md
+      - a: elements/a.md
+      - i: elements/i.md
+      - p: elements/p.md
+      - script: elements/script.md
