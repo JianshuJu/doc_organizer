@@ -1,38 +1,38 @@
-# <li>
+# `<li>`
 
-## Overview
+## 概述
 
 `<li>`（List Item）元素用于定义列表中的条目。它必须嵌套在有序列表（`<ol>`）或无序列表（`<ul>`）中使用。在本源文件中，`<li>` 用于展示导航链接条目以及装饰性气泡动画元素。
 
-- **Type**: block-level（块级元素）
-- **Category**: text-content（文本内容）
-- **Spec**: [HTML Living Standard - li element](https://html.spec.whatwg.org/multipage/grouping-content.html#the-li-element)
+- **类型**: 块级元素（block-level）
+- **分类**: 文本内容（text-content）
+- **规范**: [HTML Living Standard - li element](https://html.spec.whatwg.org/multipage/grouping-content.html#the-li-element)
 
-## Attributes
+## 属性
 
-| Attribute | Value in Source | Description |
+| 属性 | 源文件中的值 | 说明 |
 |-----------|----------------|-------------|
 | `value` | _(common)_ | 仅在 `<ol>` 中使用，指定当前列表项的序号值 |
 | `type` | _(common)_ | 已废弃，用于指定列表项标记样式 |
 
 本源文件中的 `<li>` 元素未使用任何属性。
 
-## Child Elements
+## 子元素
 
-| Child Element | Purpose Under `<li>` |
+| 子元素 | 在 `<li>` 下的用途 |
 |---------------|----------------------|
 | [`<a>`](a.md) | 在列表项中嵌入超链接，指向外部网址 |
 | [`<i>`](i.md) | 在 `<a>` 内部使用，以斜体样式展示链接地址文本 |
 
 `<li>` 还可直接包含纯文本内容。在本源文件中，每个导航 `<li>` 包含描述性纯文本（如 "AGou's Blog"）以及一个内嵌 `<a>` 元素。
 
-## Parent Elements
+## 父元素
 
 - [`<ul>`](ul.md)
 
 在本源文件中，所有 `<li>` 均作为 [`<ul>`](ul.md) 的子元素出现，分别位于导航链接区域和装饰性气泡背景区域。
 
-## Source Example
+## 源码示例
 
 ```html
 <!-- From example/index.html — 导航链接列表项 -->
@@ -73,7 +73,7 @@
 </ul>
 ```
 
-## Notes
+## 备注
 
 - `<li>` 元素必须作为 [`<ul>`](ul.md) 或 [`<ol>`](ol.md) 的直接子元素使用，不能独立存在。
 - 本源文件中展示了 `<li>` 的两种典型用法：一是包含文本与超链接的内容型列表项，二是仅用于配合 CSS 动画的空列表项（`bg-bubbles` 区域）。

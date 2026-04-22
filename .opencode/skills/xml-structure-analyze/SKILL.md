@@ -60,7 +60,7 @@ docs/
 Each element document MUST strictly follow this template:
 
 ```markdown
-# <{tag}>
+# `<{tag}>`
 
 ## Overview
 

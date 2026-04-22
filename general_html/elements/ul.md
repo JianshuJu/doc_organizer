@@ -1,6 +1,6 @@
-# <ul>
+# `<ul>`
 
-## Overview
+## 概述
 
 `<ul>` 是无序列表元素，用于创建一个项目符号列表。列表中的每一项由 [`<li>`](li.md) 元素定义。无序列表中的项目没有特定的顺序含义。
 
@@ -8,7 +8,7 @@
 - **分类**: 文本内容（text-content）
 - **规范**: [HTML Living Standard - The ul element](https://html.spec.whatwg.org/multipage/grouping-content.html#the-ul-element)
 
-## Attributes
+## 属性
 
 | 属性 | 源文件中的值 | 说明 |
 |-----------|----------------|-------------|
@@ -17,19 +17,19 @@
 | `style` (common) | — | 内联 CSS 样式 |
 | `role` (common) | — | 无障碍角色描述 |
 
-## Child Elements
+## 子元素
 
 | 子元素 | 在 `<ul>` 下的用途 |
 |---------------|------------------------|
 | [`<li>`](li.md) | 定义列表中的每一项，是 `<ul>` 唯一直接允许的子元素类型 |
 
-## Parent Elements
+## 父元素
 
 以下元素可以作为 `<ul>` 的父元素：
 
 - [`<div>`](div.md)
 
-## Source Example
+## 源码示例
 
 ```html
 <!-- From example/index.html — 无序列表（无类名） -->
@@ -69,7 +69,7 @@
 </ul>
 ```
 
-## Notes
+## 备注
 
 - 本源文件中包含两种用途的 `<ul>` 元素：一种用于展示实际的导航链接列表（嵌套在 `div.content-top` 中），另一种用于纯装饰性的 CSS 动画背景气泡效果（通过 `class="bg-bubbles"` 样式化，嵌套在 `div.wrapper` 中）。
 - `<ul>` 只应包含 [`<li>`](li.md) 作为直接子元素。将其他元素直接放在 `<ul>` 内不符合 HTML 规范。
